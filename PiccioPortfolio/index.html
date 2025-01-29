@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-section">
+                <img src="ARQUIVOS.jpeg" alt="pfp" class="profile-image">
+                <div>
+                    <h1>DIGITAL PORTFOLIO ✮</h1>
+                    <p>Pepper Piccio 𖦹 BSCS - MMCM</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-tabs">
+            <button class="tab-button active" data-tab="projects">✮ Projects</button>
+            <button class="tab-button" data-tab="skills">✮ Skills</button>
+            <button class="tab-button" data-tab="certifications">✮ Certifications</button>
+            <button class="tab-button" data-tab="about">✮ About me</button>
+        </div>
+
+        <div id="about" class="content-section hidden">
+            <h2>ABOUT ME</h2>
+            <div class="about-container">
+                <div class="about-profile">
+                    <div class="profile-frame">
+                        <img src="pfp.jpg" alt="Profile Picture" class="about-profile-image">
+                    </div>
+                </div>
+        
+                <div class="about-info">
+                    <h3>Frances Jennifer A. Piccio</h3>
+                    <p class="location">Davao City, Philippines</p>
+                    <div class="info-content">
+                        <p><strong> ☆ Occupation:</strong> Social Media Manager - Team True Social</p>
+                        <p><strong> ☆ Education:</strong> Bachelor of Science in Computer Science - MMCM</p>
+                        <p><strong> ☆ Extracurricular Skills:</strong></p>
+                        <ul class="skills-showcase">
+                            <li>Illustration</li>
+                            <li>Graphic Design</li>
+                            <li>Digital Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+                        <div class="art-showcase">
+                    <h4>SAMPLE ARTWORKS</h4>
+                    <div class="art-grid">
+                        <div class="art-item">
+                            <img src="fae.jpg" alt="Artwork 1" class="art-image">
+                        </div>
+                        <div class="art-item">
+                            <img src="hell.jpg" alt="Artwork 2" class="art-image">
+                        </div>
+                        <div class="art-item">
+                            <img src="violent.png" alt="Artwork 3" class="art-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="content-section">
+            <h2>FEATURED PROJECTS</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="Icon from Pinterest.jpeg" alt="Project 1" class="project-image">
+                    <h3>CLOVERPASS</h3>
+                    <a href="#" target="_blank">VIEW</a>
+                </div>
+                <div class="project-card">
+                    <img src="Goldfish Candy Japaaan.jpeg" alt="Project 2" class="project-image">
+                    <h3>HEART HOCKEY</h3>
+                    <a href="#" target="_blank">VIEW</a>
+                </div>
+                <div class="project-card">
+                    <img src="Pin Image.jpeg" alt="Project 3" class="project-image">
+                    <h3>KEIKO: POWER-UP LEARNING!</h3>
+                    <a href="#" target="_blank">VIEW</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2 id="modal-title"></h2>
+                <div id="modal-images" class="modal-images"></div>
+                <p id="modal-description"></p>
+                <a id="modal-link" href="#" target="_blank" class="modal-link">View Source/Github</a>
+            </div>
+        </div>
+        
+
+        <div id="skills" class="content-section hidden">
+            <h2>TECHNICAL SKILLS</h2>
+            <div class="skills-list">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Git</div>
+                <div class="skill-item">UI/UX Design</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">Adobe Creative Studio</div>
+                <div class="skill-item">Procreate</div>
+
+            </div>
+        </div>
+
+        <div id="certifications" class="content-section hidden">
+            <h2>CERTIFICATIONS AND AFFLIATIONS</h2>
+            <div class="certification-card">
+                <h3>Microsoft Excel Certification</h3>
+                <h3>Mapua Malayan Colleges Mindanao</h3>
+            </div>
+            <div class="certification-card">
+                <h3>CSS Creative Head - Merch</h3>
+                <h3>Computing Students Society - CCIS Department Organization</h3>
+            </div>
+        </div>
+
+        <footer>
+            <h3>email: pepperpiccio@gmail.com</h3>
+            <p>
+            <a href="https://github.com/arcadetokyo">☆ Github</a>
+            <br>
+            <a href="https://www.instagram.com/akasaka.sad/">☆ Instagram</a>
+            </p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
