@@ -599,3 +599,13 @@ footer:hover {
         grid-column: 1 / -1;
     }
 }
+.certification-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.certification-image {
+    width: 100px; 
+    height: auto;
+}

@@ -1,33 +1,25 @@
-// Tab switching functionality
 const tabButtons = document.querySelectorAll('.tab-button');
 const contentSections = document.querySelectorAll('.content-section');
 
 tabButtons.forEach(button => {
     button.addEventListener('click', () => {
-        // Remove active class from all buttons
         tabButtons.forEach(btn => btn.classList.remove('active'));
-        // Add active class to clicked button
         button.classList.add('active');
 
-        // Hide all content sections
         contentSections.forEach(section => section.classList.add('hidden'));
-        // Show the selected content section
         const targetTab = button.dataset.tab;
         document.getElementById(targetTab).classList.remove('hidden');
     });
 });
 
-// Add animation delay to skill items
 document.querySelectorAll('.skill-item').forEach((item, index) => {
     item.style.setProperty('--delay', index);
 });
 
-// Add animation delay to about section skills
 document.querySelectorAll('.skills-showcase li').forEach((item, index) => {
     item.style.setProperty('--delay', index);
 });
 
-// Create floating icons
 const icons = ['☆', '𖦹'];
 const colors = ['var(--pastel-pink)', 'var(--pastel-blue)', 'var(--pastel-yellow)', 'var(--pastel-green)'];
 
@@ -50,7 +42,6 @@ function createFloatingIcon() {
 
 setInterval(createFloatingIcon, 1000);
 
-// Update sparkle effect on mouse move
 document.addEventListener('mousemove', (e) => {
     if (Math.random() < 0.1) { 
         const sparkle = document.createElement('div');
