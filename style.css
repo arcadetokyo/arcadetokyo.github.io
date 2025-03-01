@@ -602,10 +602,11 @@ footer:hover {
 .certification-item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .certification-image {
-    width: 100px; 
+    width: 150px;
     height: auto;
 }
+
