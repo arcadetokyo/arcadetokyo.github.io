@@ -98,11 +98,20 @@ const projectData = [
         github: 'https://github.com/moni-dz/Group-5-System-Keiko',
     },
     {
-        title: 'Project Capacity Management',
-        images: ['assets/lml.png', 'assets/lml2.png', 'assets/lml3.png', 'assets/lml4.png'],
-        description: 'A web-based project management for an engineering firm developed with DrizzleORM, Javascript and others. Main contributions include UI/UX design and conceptualization. You may check contributors for validation.',
-        github: 'https://github.com/moni-dz/im-wp',
-    },
+        title: "Project Capacity Management",
+        images: [
+            "assets/lml.png",
+            "assets/lml2.png",
+            "assets/lml3.png",
+            "assets/lml4.png"
+        ],
+        description: 
+            "The proposed web application is a Management System for LML Engineering Solutions, designed to streamline project tracking, contract management, and employee assignments. It features a centralized dashboard for managing projects, tracking contracts, and assigning employees efficiently.\n\n" +
+            "Key features include multi-project tracking, sorting and filtering with TanStack Table, contract and document management, employee role tracking, and a client database. Users can upload contracts, monitor progress, assign employees, and schedule site inspections—all within an intuitive interface.\n\n" +
+            "Built with Next.js for its server-side rendering and API capabilities, the system uses MariaDB for efficient data storage, Tailwind CSS for a responsive UI, and Drizzle ORM for clean, type-safe database interactions.",
+        github: "https://github.com/moni-dz/im-wp"
+    }
+    
 ];
 
 viewButtons.forEach((button, index) => {
