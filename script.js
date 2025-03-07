@@ -101,7 +101,7 @@ const projectData = [
         title: 'Project Capacity Management',
         images: ['assets/lml.png', 'assets/lml2.png', 'assets/lml3.png', 'assets/lml4.png'],
         description: 'A web-based project management for an engineering firm developed with DrizzleORM, Javascript and others. Main contributions include UI/UX design and conceptualization. You may check contributors for validation.',
-        github: 'https://github.com/moni-dz/Group-5-System-Keiko',
+        github: 'https://github.com/moni-dz/im-wp',
     },
 ];
 
