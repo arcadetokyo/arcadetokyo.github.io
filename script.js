@@ -97,6 +97,12 @@ const projectData = [
         description: 'A web-based flashcard platform developed using Rust and Javascript. Main contributions include UI/UX design and conceptualization. You may check contributors for validation.',
         github: 'https://github.com/moni-dz/Group-5-System-Keiko',
     },
+    {
+        title: 'Project Capacity Management',
+        images: ['assets/lml.png', 'assets/lml2.png', 'assets/lml3.png', 'assets/lml4.png'],
+        description: 'A web-based project management for an engineering firm developed with DrizzleORM, Javascript and others. Main contributions include UI/UX design and conceptualization. You may check contributors for validation.',
+        github: 'https://github.com/moni-dz/Group-5-System-Keiko',
+    },
 ];
 
 viewButtons.forEach((button, index) => {
