@@ -281,7 +281,7 @@ p {
 
 .certification-card p {
     font-family: var(--other-font);
-    font-size: medium;
+    font-size: x-large;
     color: #b280ae;
     margin-bottom: 0.75rem; 
 }
