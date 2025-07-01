@@ -281,7 +281,7 @@ p {
 
 .certification-card p {
     font-family: var(--other-font);
-    font-size: small;
+    font-size: medium;
     color: #b280ae;
     margin-bottom: 0.75rem; 
 }
@@ -658,6 +658,8 @@ ux-certifications {
     background: linear-gradient(135deg, var(--pastel-green), var(--pastel-yellow));
     padding: 1.2rem;
     border-radius: 12px;
+    gap: 20x;
+    margin: 10px;
     transition: all 0.3s ease;
     text-decoration: none;
     color: var(--text-color);
