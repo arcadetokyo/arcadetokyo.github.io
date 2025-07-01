@@ -410,11 +410,11 @@ footer:hover {
 
 .modal-description {
     text-align: justify;
-    font-size: 1rem;
+    font-size: 3rem;
     margin: 1.5rem 0;
-    color: #555;
     line-height: 1.6;
     padding: 0 3rem;
+    color: #b280ae;
 }
 
 .view-button-container {
@@ -540,6 +540,10 @@ footer:hover {
     font-family: var(--heading-font);
 }
 
+.about-info p {
+    color: var(--text-color);
+}
+
 .location {
     font-size: 1.1rem;
     color: var(--text-color);
@@ -547,7 +551,7 @@ footer:hover {
     animation: bounce 2s infinite;
 }
 
-.info-content {
+.info-content p {
     line-height: 1.6;
     color: var(--text-color);
 }
