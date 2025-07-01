@@ -272,6 +272,21 @@ p {
     color: var(--text-color);
 }
 
+
+.certification-card h3 {
+    font-family: var(--heading-font);
+    font-size: medium;
+    margin-bottom: 0.75rem; 
+}
+
+.certification-card p {
+    font-family: var(--other-font);
+    font-size: small;
+    color: #b280ae;
+    margin-bottom: 0.75rem; 
+}
+
+
 .certification-card:hover {
     transform: translateX(10px) rotate(1deg);
     background-color: var(--pastel-yellow);
@@ -292,7 +307,8 @@ footer h3,
 footer p,
 footer a {
     font-family: var(--heading-font);
-    font-size: large;
+    font-size: medium;
+    color: #b280ae;
 }
 
 
@@ -630,6 +646,8 @@ ux-certifications {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     background-color: var(--pastel-blue);
     padding: 1.5rem;
+    gap: 20x;
+    margin: 10px;
     border-radius: 15px;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
