@@ -288,6 +288,12 @@ footer {
 }
 
 
+footer h3,
+footer p,
+footer a {
+    font-family: 'gaupop', sans-serif;
+}
+
 
 footer:hover {
     transform: scale(1.02);
@@ -666,6 +672,7 @@ ux-certifications {
     opacity: 0.8;
     font-style: italic;
 }
+
 
 @media (max-width: 768px) {
     .ux-cert-grid {
