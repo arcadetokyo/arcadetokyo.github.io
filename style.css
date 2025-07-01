@@ -566,6 +566,7 @@ footer:hover {
     display: inline-block;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
+    color: #b280ae;
     background-color: var(--pastel-pink);
     border-radius: 20px;
     animation: wiggle 2s ease-in-out infinite;
